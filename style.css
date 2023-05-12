@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "calluna", serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: black;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	margin-top: 4em;
+}
+
+
+.title h1{
+	color: white;
+	font-family: "calluna", serif;
+	font-size: 5em;
+	font-weight: 700;
+	font-style: normal;
+	padding-bottom: 1em;
+}
+
+.title h2{
+	font-size: 2.5em;
+	padding-bottom: 3em;
+}
+
+.arrow{
+  width: 2%;
+  animation: fade_move_down 4s ease-in-out infinite;
+}
+
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px); opacity: 0; }
+}
+
+.content{
+	padding-top: 2em;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content h2{
+	color: black;
+	padding-top: 2em;
+	font-size: 3em;
+	padding-bottom: 2em;
+}
+
+.spectacles h1{
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	font-size: 4em;
+}
+
+.descrip{
+	display: flex;
+	padding-left: 7em;
+	padding-top: 5em;
+	align-items: center;
+}
+
+.descrip p{
+	width: 50%;
+	font-size: 2.25em;
+}
+
+.descrip img{
+	width: 30%;
+	height: auto;
+}
+
+.descrip_1{
+	padding-top: 5em;
+	display: flex;
+	padding-right: 7em;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.descrip_1 p{
+	width: 50%;
+	font-size: 2.25em;
+}
+
+.vid{
+	padding-top: 5em;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5em;
+}
+
+.solution{
+	background-color: white;
+	padding-top: 2em;
+	font-size: 2.25em;
+	display: flex;
+	flex-direction: column;
+}
+
+.descrip_2{
+	display: flex;
+	padding-left: 3em;
+	padding-top: 1.75em;
+	align-items: center;
+}
+
+.descrip_2 p{
+	color: black;
+	width: 80%;
+}
+
+.descrip_3{
+	display: flex;
+	padding-left: 3em;
+	padding-top: 2em;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.descrip_3 p{
+	color: black;
+	width: 80%;
+}
+
+.vid_1{
+	text-align: center;
+}
